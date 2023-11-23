@@ -1,6 +1,6 @@
 BEFORE RUNNING ANY SCRIPT I MADE, COMMIT YOUR CHANGES!!
 
-V10 and V11 are broken, update to V12
+Builder V10 and V11 are broken, update to V12
 
 ### Navigator
 
