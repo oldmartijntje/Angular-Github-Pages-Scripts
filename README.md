@@ -40,7 +40,7 @@ If `scripts/builderData.json` does not exist, run `builder.py`, this will give y
     "BuildDataPath": "/src/app/Models/buildData.ts",
     "AngularDistName": "play-time",
     "HostToUrl": "https://oldmartijntje.nl",
-    "BuilderMakeBranch": false,
+    "BuilderMakeBranch": true,
     "MainBranch": "main"
 }
 ```
@@ -94,7 +94,7 @@ don't touch `JSONVersion`, this is for me to debug builder script issues.
 
 6. `MainBranch`
 
-    after making a new branch for each build, it switches back to this branch. If `BuilderMakeBranch` is set to `false`, this won't be needed to be accurately set.
+    after making a new branch for each build, it switches back to this branch. If `BuilderMakeBranch` is set to `false`, this still needs to be set accurately.
 
 7. `GitRepo`
 
