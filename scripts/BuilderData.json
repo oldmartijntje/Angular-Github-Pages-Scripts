@@ -1,0 +1,10 @@
+{
+    "BuildNumber": 34,
+    "JSONVersion": 3,
+    "AngularProjectFolder": "PlayTimeClient",
+    "BuildDataPath": "/src/app/Models/buildData.ts",
+    "AngularDistName": "play-time",
+    "HostToUrl": "https://oldmartijntje.nl",
+    "BuilderMakeBranch": false,
+    "MainBranch": "main"
+}
