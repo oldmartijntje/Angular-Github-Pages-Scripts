@@ -1,4 +1,6 @@
-Before running any script i made, commit your changes!! //should turn this into caps
+BEFORE RUNNING ANY SCRIPT I MADE, COMMIT YOUR CHANGES!!
+
+V10 and V11 are broken, update to V12
 
 ### Navigator
 
@@ -16,7 +18,7 @@ Before running any script i made, commit your changes!! //should turn this into 
 
 - [Navigator](#navigator)
 
-This is accurate since builder Version 10 (you can view this in the py scripts)
+This is accurate since builder Version 10. (View version on running it.)
 
 place the scripts folder on the same level as the angular project,
 for example: 
