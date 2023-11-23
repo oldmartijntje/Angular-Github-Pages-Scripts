@@ -96,6 +96,10 @@ don't touch `JSONVersion`, this is for me to debug builder script issues.
 
     after making a new branch for each build, it switches back to this branch. If `BuilderMakeBranch` is set to `false`, this won't be needed to be accurately set.
 
+7. `GitRepo`
+
+    The path to your git repo, so that the last commit url will work
+
 ## testbuilder vs builder
 
 - [Navigator](#navigator)
