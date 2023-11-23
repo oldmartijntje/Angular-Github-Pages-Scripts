@@ -16,6 +16,8 @@ Before running any script i made, commit your changes!! //should turn this into 
 
 - [Navigator](#navigator)
 
+This is accurate since builder Version 10
+
 place the scripts folder on the same level as the angular project,
 for example: 
 >`C:/henk/scripts` + `C:/henk/angularProjectFolder/scr/...`, where they are both directly in `C:/henk/`
