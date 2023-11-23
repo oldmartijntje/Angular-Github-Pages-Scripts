@@ -1,10 +1,11 @@
 {
-    "BuildNumber": 34,
+    "BuildNumber": 0,
     "JSONVersion": 3,
     "AngularProjectFolder": "PlayTimeClient",
-    "BuildDataPath": "/src/app/Models/buildData.ts",
+    "BuildDataPath": "src/app/Models/buildData.ts",
     "AngularDistName": "play-time",
     "HostToUrl": "https://oldmartijntje.nl",
-    "BuilderMakeBranch": false,
-    "MainBranch": "main"
+    "BuilderMakeBranch": true,
+    "MainBranch": "main",
+    "GitRepo": "https://github.com/oldmartijntje/playtime/"
 }
