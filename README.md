@@ -16,7 +16,7 @@ Before running any script i made, commit your changes!! //should turn this into 
 
 - [Navigator](#navigator)
 
-This is accurate since builder Version 10
+This is accurate since builder Version 10 (you can view this in the py scripts)
 
 place the scripts folder on the same level as the angular project,
 for example: 
