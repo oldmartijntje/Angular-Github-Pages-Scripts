@@ -38,6 +38,10 @@ open the `scripts/builderData.json`, this is the default data.
 
 If `scripts/builderData.json` does not exist, run `builder.py`, this will give you errors, but i will generate the `scripts/builderData.json` for you.
 
+IMPORTANT!
+
+This json will be created/read from wherever your builder.py is ran from. So if you run it in vscode whilst it is in a folder, it probably will create a new one in the top level.
+
 ```json
 {
     "BuildNumber": 0,
