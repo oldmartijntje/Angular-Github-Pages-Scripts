@@ -2,6 +2,9 @@ BEFORE RUNNING ANY SCRIPT I MADE, COMMIT YOUR CHANGES!!
 
 V10 and V11 are broken, update to V12
 
+[Find the newest version here.](https://github.com/oldmartijntje/Angular-Github-Pages-Scripts)
+
+
 ### Navigator
 
 - [My Build Scripts](#my-scripts)
@@ -12,6 +15,7 @@ V10 and V11 are broken, update to V12
 - [Hosting with a Different URL](#hosting-with-a-different-url)
 - [Angular build variables](#build-specific-variables)
 - [gitignore](#gitignore)
+- [credits](#credits)
 
 
 # My Scripts
@@ -200,3 +204,15 @@ i reccomend to put the following in a .gitignore file:
 BuilderData.json
 environment.prod.ts
 ```
+
+# credits
+
+- [Navigator](#navigator)
+
+Thanks for using my scripts.
+
+I wish you the best of luck in your programming adventures.
+
+-OldMartijntje
+
+[Find the newest version of this project here.](https://github.com/oldmartijntje/Angular-Github-Pages-Scripts)
