@@ -1,6 +1,6 @@
 BEFORE RUNNING ANY SCRIPT I MADE, COMMIT YOUR CHANGES!!
 
-V10 and V11 are broken, update to V12
+Builder V10 and V11 are broken, update to V12
 
 [Find the newest version here.](https://github.com/oldmartijntje/Angular-Github-Pages-Scripts)
 
