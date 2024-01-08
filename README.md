@@ -200,6 +200,9 @@ When you run it locally, it will use the variables from `"src/environments/envir
 And when you build this script (using 1 of the 2 builders), it will use the variables from `"src/environments/environment.prod.ts"`,
 
 # standalone component generation
+
+- [Navigator](#navigator)
+
 On default `ng generate component myComponent` will make it a standalone component. This is good for when you plan on making it exportable, but otherwise not so much.
 
 You can change it so that it doesn't make it standalone when you use `ng generate component myComponent`
@@ -221,6 +224,8 @@ But if you want to change it as default mode, go to Angular.json and define the 
     }
 }
 ```
+
+The reason why you would want it to be standalone is for creating a component you want to export to other applications. But if you don't need that, I'd advise to mkae it not be standalone.
 
 # gitignore
 
