@@ -14,6 +14,7 @@ Builder V10 and V11 are broken, update to V12
   - [problems i solved with my builder](#problems-i-solved-with-my-builder)
 - [Hosting with a Different URL](#hosting-with-a-different-url)
 - [Angular build variables](#build-specific-variables)
+- [Angular comonent standalone generation](#standalone-component-generation)
 - [gitignore](#gitignore)
 - [credits](#credits)
 
@@ -197,6 +198,29 @@ Now you should be able to import environment in every typescript file, and use t
 
 When you run it locally, it will use the variables from `"src/environments/environment.ts"`.
 And when you build this script (using 1 of the 2 builders), it will use the variables from `"src/environments/environment.prod.ts"`,
+
+# standalone component generation
+On default `ng generate component myComponent` will make it a standalone component. This is good for when you plan on making it exportable, but otherwise not so much.
+
+You can change it so that it doesn't make it standalone when you use `ng generate component myComponent`
+
+You can either use `ng generate component --standalone false myComponent`, this will generate this one with your preferred standalone settings.
+
+But if you want to change it as default mode, go to Angular.json and define the default behaviour:
+
+```json
+"projects": {
+    "my-angular17-project": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss",
+          "standalone": false
+        }
+      },
+    }
+}
+```
 
 # gitignore
 
