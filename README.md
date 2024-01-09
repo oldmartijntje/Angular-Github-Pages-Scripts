@@ -227,6 +227,8 @@ But if you want to change it as default mode, go to Angular.json and define the 
 
 The reason why you would want it to be standalone is for creating a component you want to export to other applications. But if you don't need that, I'd advise to mkae it not be standalone.
 
+Prevent issues by setting it to default in the init generation command: `ng new --no-standalone appName`
+
 [a comment that explains this on stackoverflow](https://stackoverflow.com/questions/77454741/why-doesnt-app-module-exist-in-angular-17#:~:text=1%20Answer&text=From%20Angular%20v17%20onwards%2C%20Standalone,you%20don%27t%20specify%20anything.&text=Standalone%20components%20are%20a%20feature%20introduced%20in%20v14.)
 
 # gitignore
